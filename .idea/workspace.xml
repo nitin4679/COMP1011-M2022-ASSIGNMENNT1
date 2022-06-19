@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe4a8f64-759b-4b47-8784-00dd0188b4f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022assignment1/PopulationData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022assignment1/GraphViewSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022assignment1/GraphViewSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022assignment1/PopulationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022assignment1/PopulationData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022assignment1/TableViewSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022assignment1/TableViewSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022assignment1/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022assignment1/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

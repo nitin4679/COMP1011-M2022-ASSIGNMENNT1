@@ -21,12 +21,6 @@ public class PopulationData
         setPopulation(population);
     }
 
-    public PopulationData(String code, String name, int population)
-    {
-        setCode(code);
-        setName(name);
-        setPopulation(population);
-    }
 
  // Setter Getters
 

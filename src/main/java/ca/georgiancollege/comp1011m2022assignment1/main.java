@@ -14,6 +14,8 @@ public class main extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(main.class.getResource("GraphViewScene.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Welcome to Assignment 1 of Java!");
+
+        // Added icon to the UI
         Image icon = new Image(getClass().getResourceAsStream("icon.png"));
         stage.getIcons().add(icon);
         stage.setScene(scene);
