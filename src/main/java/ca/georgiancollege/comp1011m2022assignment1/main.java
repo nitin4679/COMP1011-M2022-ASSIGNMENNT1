@@ -3,6 +3,7 @@ package ca.georgiancollege.comp1011m2022assignment1;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -12,7 +13,9 @@ public class main extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(main.class.getResource("GraphViewScene.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Welcome!");
+        stage.setTitle("Welcome to Assignment 1 of Java!");
+        Image icon = new Image(getClass().getResourceAsStream("icon.png"));
+        stage.getIcons().add(icon);
         stage.setScene(scene);
         stage.show();
     }
