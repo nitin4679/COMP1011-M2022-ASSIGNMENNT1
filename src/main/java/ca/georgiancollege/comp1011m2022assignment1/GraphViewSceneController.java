@@ -1,5 +1,6 @@
 package ca.georgiancollege.comp1011m2022assignment1;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.chart.BarChart;
@@ -33,6 +34,12 @@ public class GraphViewSceneController implements Initializable {
 
     @FXML
     private Button viewTable;
+
+    @FXML
+    void showTableView(ActionEvent event) throws Exception{
+        SceneManager.changeScenes(event,"TableViewScene.fxml");
+
+    }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {

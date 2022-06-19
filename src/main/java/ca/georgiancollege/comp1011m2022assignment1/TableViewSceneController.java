@@ -1,5 +1,6 @@
 package ca.georgiancollege.comp1011m2022assignment1;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -31,6 +32,12 @@ public class TableViewSceneController implements Initializable {
 
     @FXML
     private Button viewGraph;
+
+    @FXML
+    void showGraphView(ActionEvent event) throws Exception{
+        SceneManager.changeScenes(event,"GraphViewScene.fxml");
+
+    }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
