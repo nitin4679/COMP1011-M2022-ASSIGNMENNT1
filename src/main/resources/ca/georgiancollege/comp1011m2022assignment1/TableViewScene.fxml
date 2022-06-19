@@ -16,27 +16,30 @@
          <center>
             <TableView fx:id="tableView" prefHeight="450.0" prefWidth="757.0" BorderPane.alignment="CENTER">
               <columns>
-                <TableColumn fx:id="code" prefWidth="75.0" style="-fx-background-color: #DB7093#DB7093; -fx-border-color: black;" text="CODE" />
-                <TableColumn fx:id="name" prefWidth="187.0" style="-fx-background-color: #DB7093#DB7093; -fx-border-color: black;" text="NAME" />
-                  <TableColumn fx:id="continent" prefWidth="151.9857940673828" style="-fx-background-color: #DB7093#DB7093; -fx-border-color: black;" text="CONTINENT" />
-                  <TableColumn fx:id="region" prefWidth="204.01419067382812" style="-fx-background-color: #DB7093#DB7093; -fx-border-color: black;" text="REGION" />
-                  <TableColumn fx:id="population" prefWidth="185.0" style="-fx-background-color: #DB7093#DB7093; -fx-border-color: black;" text="POPULATION" />
+                <TableColumn fx:id="code" prefWidth="75.0" style="-fx-background-color: #D8BFD8; -fx-border-color: black;" text="CODE" />
+                <TableColumn fx:id="name" prefWidth="187.0" style="-fx-background-color: #FFB6C1#FFB6C1; -fx-border-color: black;" text="NAME" />
+                  <TableColumn fx:id="continent" prefWidth="151.9857940673828" style="-fx-background-color: #D8BFD8 #D8BFD8; -fx-border-color: black;" text="CONTINENT" />
+                  <TableColumn fx:id="region" prefWidth="204.01419067382812" style="-fx-background-color: #FFB6C1#FFB6C1; -fx-border-color: black;" text="REGION" />
+                  <TableColumn fx:id="population" prefWidth="185.0" style="-fx-background-color: #D8BFD8 #D8BFD8; -fx-border-color: black;" text="POPULATION" />
               </columns>
             </TableView>
          </center>
          <bottom>
             <HBox alignment="BOTTOM_RIGHT" BorderPane.alignment="CENTER">
                <children>
-                  <Button fx:id="viewGraph" mnemonicParsing="false" onAction="#showGraphView" prefHeight="70.0" prefWidth="159.0" style="-fx-background-color: #ffa621;" text="VIEW GRAPH">
+                  <Button fx:id="viewGraph" mnemonicParsing="false" onAction="#showGraphView" prefHeight="70.0" prefWidth="159.0" style="-fx-background-color: #ffa621 #ffa621; -fx-border-color: black;" text="VIEW GRAPH">
                      <font>
-                        <Font size="18.0" />
+                        <Font size="16.0" />
                      </font>
                   </Button>
                </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
             </HBox>
          </bottom>
          <opaqueInsets>
-            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            <Insets />
          </opaqueInsets>
          <top>
             <Label text="POPULATION DATA" BorderPane.alignment="CENTER">
@@ -47,4 +50,10 @@
          </top>
       </BorderPane>
    </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
 </AnchorPane>
